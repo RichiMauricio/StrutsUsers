@@ -21,6 +21,5 @@ public class RegistroAction2 extends Action{
        String mensaje = "Datos validados en la clase RegistroForm, antes de ser enviados al modelo..." ;
        request.setAttribute("mensaje", mensaje);
        return mapping.findForward("Registro");
-    }
-    
+    }    
 }
